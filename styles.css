@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: black;
+}
+header {
+    background-image: url(https://miro.medium.com/v2/resize:fit:1358/1*eBZfXMuE72uCDtjUZEzZHQ.gif);
+    background-size: contain;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: #fff;
+    color: #39DF00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+    background-color: #39DF00;
+    color: #fff;
+}
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background: #5C6363;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.project {
+    margin: 15px 0;
+    padding: 15px;
+    border: 2px solid #238D00;
+    border-radius: 5px;
+    background: #6E7777;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: #8D9999;
+    border: 4px solid #39DF00;
+    transition: 1s;
+}
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #39DF00;
+    text-decoration: none;
+}
+.project a:hover {
+    text-decoration: underline;
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+.skill {
+    background-color: #39DF00;
+    color: white;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+.skill:hover {
+    background-color: #238D00;
+}
+#contact a{
+    color: #39DF00;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
